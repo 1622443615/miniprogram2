@@ -1,11 +1,6 @@
 <scroll-view class="horizontal-scroll" scroll-x="true" scroll-with-animation="true" bindscroll="scroll">
-
 	<!-- 书籍卡片列表 -->
 	<view class="card-list">
-		<view class="bookTitle">
-			<text>各种标题</text>
-			<t-link size="small" content="查看更多" hover />
-		</view>
 		<!-- 通过 wx:for 循环渲染卡片数据 -->
 		<block wx:for="{{cards}}" wx:key="id">
 			<view class="card">

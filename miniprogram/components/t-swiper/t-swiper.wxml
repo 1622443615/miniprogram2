@@ -4,7 +4,7 @@
   <text>各种标题</text>
   <t-link size="small" content="查看更多" hover />
 </view>
-<swiper>
+<swiper indicator-dots="true" in >
   <block wx:for="{{imageList}}" wx:key="*this">
     <swiper-item>
       <image src="{{item.url}}" />
