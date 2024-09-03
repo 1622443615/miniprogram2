@@ -2,7 +2,7 @@
 <!-- <navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar> -->
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
-    
+    <t-swiper></t-swiper>
     <!-- <main-service></main-service> -->
     <xscroll-book></xscroll-book>
     <!-- <yscroll-teach></yscroll-teach> -->

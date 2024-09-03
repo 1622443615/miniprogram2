@@ -1,11 +1,15 @@
 // components/t-swiper/t-swiper.ts
+const imageList= [
+  {url:'../../assets/images/bannner.png'},
+  {url:'../../assets/images/bannner.png'},
+  {url:'../../assets/images/bannner.png'}
+];
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-
+    imageList
   },
 
   /**
