@@ -1,0 +1,20 @@
+<!--components/yscroll-teach/yscroll-teach.wxml-->
+<scroll-view class="vertical-scroll" scroll-y="true" scroll-with-animation="true">
+	<view class="teachList">
+		<block wx:for="{{teachCards}}" wx:key="id">
+			<view class="teachCard">
+				<view class="teachCardImg">
+					<image class="teachCardImage" src="{{item.image}}" mode="aspectFill"></image>
+				</view>
+				<view class="teachCardText">
+					<view class="teachCardTitle">{{item.title}}</view>
+					<view class="textBottom">
+						<view class="teachCardAuthor">{{item.author}}</view>
+						<view class="teachCardDate">{{item.date}}</view>
+					</view>
+				</view>
+
+			</view>
+		</block>
+	</view>
+</scroll-view>

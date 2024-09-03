@@ -1,0 +1,25 @@
+<!--components/main-service/main-service.wxml-->
+<view class="service">
+	<view class="serviceContent">
+		<view class="item">
+			<image class="my-service" src="../../assets/images/report.png" mode="" />
+			<view>信用报告</view>
+		</view>
+		<view class="item">
+			<image class="my-service" src="../../assets/images/report.png" mode="" />
+			<view>基金总览</view>
+		</view>
+		<view class="item">
+			<image class="my-service" src="../../assets/images/report.png" mode="" />
+			<view>账户查询</view>
+		</view>
+		<view class="item">
+			<image class="my-service" src="../../assets/images/report.png" mode="" />
+			<view>咨询投诉</view>
+		</view>
+		<view class="item">
+			<image class="my-service" src="../../assets/images/report.png" mode="" />
+			<view>ai问投资</view>
+		</view>
+	</view>
+</view>

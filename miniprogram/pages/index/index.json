@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "navigation-bar": "/components/navigation-bar/navigation-bar",
+    "main-service":"/components/main-service/main-service",
+    "xscroll-book":"/components/xscroll-book/xscroll-book",
+    "yscroll-teach":"/components/yscroll-teach/yscroll-teach",
+    "t-book":"/components/t-book/t-book",
+    "t-card":"/components/t-card/t-card"
+  }
+}

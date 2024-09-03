@@ -1,0 +1,39 @@
+<!--components/t-card/t-card.wxml-->
+<scroll-view class="horizontal-scroll" scroll-x="true" scroll-with-animation="true" bindscroll="scroll">
+
+	<view class="headCardList">
+		<block wx:for="{{headCards}}" wx:key="id">
+			<view class="headCard">
+				<view class="cardTop">
+					<view class="cardTitle" style="background-image: url('../../assets/images/cardTitle.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+						<text>{{item.title}}</text>
+					</view>
+					<t-link size="small" content="更多" hover />
+				</view>
+				<view class="cardBottom">
+					<view class="cardContent">
+						<view class="cardContentLeft">
+							<text>{{item.contentTop}}</text>
+							<text>{{item.contentBottom}}</text>
+						</view>
+						<view class="cardContentRight">
+							<image src="../../assets/images/horn.png"></image>
+						</view>
+					</view>
+					<view class="cardControl">
+						<view class="cardControlLeft">
+							<text>{{item.controlTop}}</text>
+							<text>{{item.controlBottom}}</text>
+						</view>
+						<view class="cardControlRight">
+							<t-button size="extra-small" shape="round">
+								<text>学习</text>
+							</t-button>
+						</view>
+
+					</view>
+				</view>
+			</view>
+		</block>
+	</view>
+</scroll-view>

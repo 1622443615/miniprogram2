@@ -1,0 +1,198 @@
+/* components/t-card/t-card.wxss */
+.horizontal-scroll {
+	width: 23.125rem;
+	height: 12rem;
+	white-space: nowrap;
+	/* 防止内容换行 */
+	overflow: hidden;
+	border-radius: 10rpx;
+
+	.headCardList {
+		display: flex;
+		width: 33.5rem;
+		height: 12rem;
+		padding: 15px;
+		gap: 1rem;
+	}
+}
+
+.headCard {
+	display: flex;
+	width: 16.25rem;
+	height: 12rem;
+	flex-direction: column;
+	background-color: white;
+	// border: 1px solid rgb(163, 163, 163);
+	border-radius: 0.375rem;
+	box-shadow: 0px 0px 10.9px -5px rgba(25, 73, 117, 0.25);
+
+	.cardTop {
+		display: flex;
+		width: 100%;
+		height: 1.625rem;
+		justify-content: space-between;
+		align-items: center;
+
+		.cardTitle {
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-left: 0.5rem;
+			padding-right: 1.5rem;
+			// background-image: url('../../assets/images/cardTitle.png');
+			// background: linear-gradient(93.53deg, #8BC7FF 0.51%, #4A78EE 99.49%);
+
+			text {
+				font-family: "PingFang SC";
+				font-size: 1rem;
+				font-style: normal;
+				font-weight: 600;
+				line-height: normal;
+				color: #FFF;
+			}
+		}
+
+		.t-link {
+			color: #2C5CA4;
+			font-family: "PingFang SC";
+			font-size: 0.75rem;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			margin-right: 0.5em;
+		}
+	}
+
+	.cardBottom {
+		display: flex;
+		flex: 1;
+		background-color: #FFF;
+		padding: 10px;
+		flex-direction: column;
+		border-bottom-left-radius: 0.375rem;
+		border-bottom-right-radius: 0.375rem;
+
+		.cardContent {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			height: 6rem;
+
+			// border: 1px solid rgb(163, 163, 163);
+			.cardContentLeft {
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+				padding-top: 10px;
+				width: 8.9375rem;
+
+				text:nth-child(1) {
+					color: #0A0E15;
+					font-family: "PingFang SC";
+					font-size: 0.875rem;
+					font-style: normal;
+					font-weight: 600;
+					line-height: 1.375rem;
+					/* 157.143% */
+					letter-spacing: 0.04375rem;
+					width: 100%;
+					white-space: normal;
+					/* 允许换行 */
+					word-wrap: break-word;
+					/* 自动换行 */
+				}
+
+				text:nth-child(2) {
+					color: rgba(44, 92, 164, 0.60);
+					font-family: "PingFang SC";
+					font-size: 0.75rem;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+				}
+			}
+
+			.cardContentRight {
+				width: 6rem;
+				height: 6rem;
+				overflow: visible;
+				position: relative;
+				flex: 1;
+
+				image {
+					width: 7.5rem;
+					height: 7.5rem;
+					position: absolute;
+					top: -25px;
+					right: -10px;
+				}
+			}
+		}
+
+		.cardControl {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			flex: 1;
+			// border: 1px solid rgb(163, 163, 163);
+			background-color: #F0F7FE;
+			border-radius: 0.375rem;
+
+			.cardControlLeft {
+				flex: 1;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: baseline;
+				padding-left: 5px;
+
+				text:nth-child(1) {
+					color: #6EA6C6;
+					font-family: "PingFang SC";
+					font-size: 0.75rem;
+					font-style: normal;
+					font-weight: 600;
+					line-height: 1.25rem;
+					/* 166.667% */
+					letter-spacing: 0.06rem;
+				}
+
+				text:nth-child(2) {
+					color: #6EA6C6;
+					font-family: "PingFang SC";
+					font-size: 0.625rem;
+					font-style: normal;
+					font-weight: 600;
+					line-height: normal;
+				}
+			}
+
+			.cardControlRight {
+				height: 100%;
+				display: flex;
+				align-items: center;
+				padding: 5px;
+
+				.t-button {
+					width: 2.625rem;
+					height: 1.25rem;
+					border-radius: 0.625rem;
+					background: linear-gradient(106deg, #5C94F2 22.52%, #65AFF1 77.48%);
+
+					text {
+						color: #FFF;
+						font-family: Inter;
+						font-size: 0.625rem;
+						font-style: normal;
+						font-weight: 600;
+						line-height: 1.25rem;
+						/* 200% */
+						letter-spacing: 0.05rem;
+					}
+				}
+			}
+
+		}
+	}
+}
