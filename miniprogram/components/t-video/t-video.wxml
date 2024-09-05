@@ -1,0 +1,17 @@
+<!--components/t-video/t-video.wxml-->
+<view class="videoCard">
+	<view class="videoTitle">
+		<text>各种标题</text>
+  <t-link size="small" content="查看更多" hover />
+	</view>
+	<view class="videoContent">
+		<view class="videoTop">
+			<image src="../../assets/images/videoImg.png"/>
+			<image src="../../assets/images/pause.png" />
+		</view>
+		<view class="videoBottom">
+			<image src="../../assets/images/comment.png" mode=""/>
+			<image src="../../assets/images/more.png" mode=""/>
+		</view>
+	</view>
+</view>

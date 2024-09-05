@@ -6,6 +6,10 @@
     "yscroll-teach":"/components/yscroll-teach/yscroll-teach",
     "t-book":"/components/t-book/t-book",
     "t-card":"/components/t-card/t-card",
-    "t-swiper":"/components/t-swiper/t-swiper"
+    "t-swiper":"/components/t-swiper/t-swiper",
+    "t-video":"/components/t-video/t-video",
+    "teach-blackboard":"/components/teach-blackboard/teach-blackboard",
+    "teach-master":"/components/teach-master/teach-master",
+    "t-grid":"/components/t-grid/t-grid"
   }
 }

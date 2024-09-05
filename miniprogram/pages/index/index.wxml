@@ -2,14 +2,17 @@
 <!-- <navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar> -->
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
-    <t-swiper></t-swiper>
-    <!-- <main-service></main-service> -->
-    <xscroll-book></xscroll-book>
-    <!-- <yscroll-teach></yscroll-teach> -->
-    <!-- <view class="tswiper">
-    </view> -->
-    <!-- <t-book></t-book> -->
+    <!-- <t-swiper></t-swiper>
+    <teach-blackboard></teach-blackboard>
+    <teach-master></teach-master>
+    <t-video></t-video>
+
     <t-card></t-card>
+    <xscroll-book></xscroll-book> -->
+    <!-- <main-service></main-service> -->
+    <!-- <yscroll-teach></yscroll-teach> -->
+    <!-- <t-book></t-book> -->
+    <t-grid></t-grid>
   </view>
 
 </scroll-view>

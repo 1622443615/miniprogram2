@@ -7,7 +7,11 @@
     "components/yscroll-teach/yscroll-teach",
     "components/t-book/t-book",
     "components/t-card/t-card",
-    "components/t-swiper/t-swiper"
+    "components/t-swiper/t-swiper",
+    "components/t-video/t-video",
+    "components/teach-blackboard/teach-blackboard",
+    "components/teach-master/teach-master",
+    "components/t-grid/t-grid"
   ],
   "window": {
     "navigationBarTextStyle": "black",

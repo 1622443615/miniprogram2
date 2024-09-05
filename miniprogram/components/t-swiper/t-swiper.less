@@ -2,7 +2,8 @@
 .swiperCard {
 	height: 10rem;
 	width: 100%;
-
+	position: relative;
+	margin-bottom: 1rem;
 	.swiperTitle {
 		height: 2rem;
 		width: 100%;
@@ -30,8 +31,8 @@
 	}
 
 	swiper {
-		width: 22.5rem;
-		height: 7.9375rem;
+		width: 21.875rem;
+		height: 8rem;
 		margin-bottom: 5rem;
 		border-radius: 0.625rem;
 		overflow: hidden;
@@ -46,5 +47,25 @@
 			}
 		}
 	}
-	
+}
+.custom-indicator {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.square-dot {
+  width: 12px; /* 指示点的宽度 */
+  height: 12px; /* 指示点的高度 */
+  background-color: #ffffff; /* 未激活时的颜色 */
+  margin: 0 5px; /* 间距 */
+  opacity: 0.5; /* 未激活时的透明度 */
+  transition: background-color 0.3s, opacity 0.3s; /* 添加过渡效果 */
+}
+
+.swiper-container .custom-pagination .custom-dot:active {
+  background-color: #ff0000; /* 激活时的颜色 */
+  opacity: 1; /* 激活时的透明度 */
 }

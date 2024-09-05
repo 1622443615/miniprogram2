@@ -1,22 +1,16 @@
-// components/t-swiper/t-swiper.ts
-const imageList= [
-  {url:'../../assets/images/bannner.png'},
-  {url:'../../assets/images/bannner.png'},
-  {url:'../../assets/images/bannner.png'}
-];
+// components/teach-blackboard/teach-blackboard.ts
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
-    imageList,
-    current:0 
+    list:[
+      "你知道吗？......",
+      "其实......"
+    ]
   },
-  onSwiperChange: function (e:any) {
-    this.setData({
-      current: e.detail.current // 更新当前指示点索引
-    });
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

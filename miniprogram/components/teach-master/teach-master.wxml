@@ -1,0 +1,32 @@
+<!--components/teach-master/teach-master.wxml-->
+<view class="tmCard">
+	<view class="tmCardLeft">
+		<view class="contentTop">
+			<text>跟着大事件
+				学投资</text>
+			<view class="contentImg">
+				<image src="../../assets/images/horn.png" />
+			</view>
+			
+		</view>
+		<view class="contentMiddle">
+			<text>人民币暴力回升！
+港股科技反攻！</text>
+				<text>2024/9/3</text>
+		</view>
+		<view class="contentBottom">
+		<view class="bottomCard">
+			
+	
+			<text>房地产最新利好政策出台...</text>
+			<view class="control">
+				<text>精选课程</text>
+			<button>学习</button>
+			</view>
+		</view>
+		</view>
+	</view>
+	<view class="tmCardRight">
+
+	</view>
+</view>

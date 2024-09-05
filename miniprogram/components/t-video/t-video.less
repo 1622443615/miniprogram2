@@ -1,0 +1,70 @@
+/* components/t-video/t-video.wxss */
+.videoCard{
+	height: 15rem;
+	width: 21.875rem;
+	display: flex;
+	flex-direction: column;
+	.videoTitle{
+		height: 2rem;
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		gap:14rem;
+		text {
+			color: #252525;
+			font-family: "PingFang SC";
+			font-size: 1rem;
+			font-style: normal;
+			font-weight: 600;
+			line-height: normal;
+		}
+
+		.t-link {
+			color: #949494;
+			font-family: "PingFang SC";
+			font-size: 0.75rem;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+	}
+	.videoContent{
+		flex: 1;
+		border-radius: 0.625rem;
+		display: flex;
+		flex-direction: column;
+	
+		.videoTop{
+			height: 11.3125rem;
+			width: 100%;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			image:nth-child(1){
+				height: 100%;
+				width: 100%;
+			}
+			image:nth-child(2){
+				position: absolute;
+				width: 2.375rem;
+				height: 2.375rem;
+			}
+		}
+		.videoBottom{
+			flex: 1;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			image:nth-child(1){
+				width: 1.25rem;
+				height: 1.0625rem;
+			}
+			image:nth-child(2){
+				width: 1rem;
+				height: 0.25rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+<!--components/t-grid/t-grid.wxml-->
+<scroll-view scroll-y style="width: 750rpx; height: auto;" type="custom">
+	<grid-view type="masonry" cross-axis-count="{{crossAxisCount}}" cross-axis-gap="{{crossAxisGap}}" main-axis-gap="{{mainAxisGap}}"
+	>
+		<block wx:for="{{gridList}}" wx:key="index">
+			<view class="card" style="height: {{100 * item.sub}};">
+				{{item}}
+			</view>
+		</block>
+	</grid-view>
+</scroll-view>

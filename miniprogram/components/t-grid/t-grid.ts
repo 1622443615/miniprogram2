@@ -1,22 +1,17 @@
-// components/t-swiper/t-swiper.ts
-const imageList= [
-  {url:'../../assets/images/bannner.png'},
-  {url:'../../assets/images/bannner.png'},
-  {url:'../../assets/images/bannner.png'}
-];
+// components/t-grid/t-grid.ts
+import { generateGridList } from '../../utils/util'
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
-    imageList,
-    current:0 
+    crossAxisCount: 2,
+    crossAxisGap: 8,
+    mainAxisGap: 4,
+    gridList: generateGridList(1000, 4)
   },
-  onSwiperChange: function (e:any) {
-    this.setData({
-      current: e.detail.current // 更新当前指示点索引
-    });
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

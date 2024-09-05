@@ -1,0 +1,21 @@
+<!--components/teach-blackboard/teach-blackboard.wxml-->
+<view class="tbCard">
+	<view class="tbCardLeft">
+		<text>每天banner
+		根据知识点产图</text>
+	</view>
+	<view class="tbCardRight">
+		<text>投教黑板报</text>
+		<text>每天一个小知识</text>
+		<view class="list">
+			<block wx:for="{{list}}" wx:key="index" >
+			<view class="listText">
+				<text>{{item}}</text>
+			</view>
+			</block>
+		</view>
+		<t-button text-class="custom-button-text" shape="round" block>
+		知道啦
+		</t-button>
+	</view>
+</view>
